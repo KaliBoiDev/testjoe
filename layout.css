@@ -1,0 +1,192 @@
+/*--------------------------------------------------
+    [SASS PLACEHOLDER]
+----------------------------------------------------*/
+/* Carousel Title */
+.carousel .carousel-title-v1, .carousel .carousel-title-v2, .carousel .carousel-title-v3 {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 1.4; }
+
+/* Carousel Subtitle */
+.carousel .carousel-subtitle-v1, .carousel .carousel-subtitle-v2, .carousel .carousel-subtitle-v3 {
+  font-size: 21px;
+  font-weight: 600; }
+
+/* Carousel Position Left */
+.carousel .carousel-position-one, .carousel .carousel-position-two, .carousel .carousel-position-three {
+  position: absolute;
+  left: auto; }
+
+/*--------------------------------------------------
+	[PLACEHOLDER]
+----------------------------------------------------*/
+/*--------------------------------------------------
+	[BUTTON VARIANT]
+----------------------------------------------------*/
+/*--------------------------------------------------
+	[HEADING]
+----------------------------------------------------*/
+/*--------------------------------------------------
+	[HEADING LEFT]
+----------------------------------------------------*/
+/*--------------------------------------------------
+	[TRANSITION]
+----------------------------------------------------*/
+/* Cubic Bezier Transition */
+/* Opacity Transition */
+/* Translate 3D Transition */
+/*--------------------------------------------------
+	[PAGE HEADER]
+----------------------------------------------------*/
+/* Page on Scroll */
+.page-on-scroll .page-header {
+  background: #fff;
+  transition-duration: 100ms;
+  transition-property: all;
+  transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  .page-on-scroll .page-header .navbar {
+    background: inherit; }
+
+.page-header {
+  padding: 0;
+  margin: 0;
+  border-bottom: none;
+  /* Navbar */
+  /* Navbar Toggle */
+  /* Navbar Brand */
+  /* Navbar Nav */ }
+  .page-header .navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    background: transparent;
+    transition-duration: 100ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  .page-header .navbar-toggle {
+    border: none;
+    margin: 25px 15px 25px 0; }
+    .page-header .navbar-toggle .icon-bar {
+      background: #3f5263; }
+  .page-header .navbar-brand {
+    height: 82px;
+    max-height: 82px;
+    line-height: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    transition-duration: 400ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    .page-header .navbar-brand img {
+      width: 40px;
+      height: 40px;
+      max-width: 100%;
+      max-height: 100%;
+      display: inline-block;
+      vertical-align: middle; }
+  .page-header .navbar-nav li {
+    padding: 25px 1px;
+    line-height: 20px;
+    transition-duration: 400ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+  .page-header .navbar-nav li > a {
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    color: #fff; }
+  .page-header .navbar-nav li.active > a,
+  .page-header .navbar-nav li > a:hover {
+    border: 1px solid rgba(255, 255, 255, 0.1); }
+  .page-header .navbar-nav li > a:focus,
+  .page-header .navbar-nav li > a:hover {
+    background: inherit; }
+
+/* Responsive code for max-width: 991px */
+@media (max-width: 991px) {
+  /* 991px */
+  .page-header .navbar-header {
+    float: none; }
+  .page-header .navbar-toggle {
+    display: block; }
+  .page-header .navbar-collapse.collapse {
+    display: none !important; }
+  .page-header .navbar-collapse.collapse.in {
+    display: block !important;
+    overflow-y: auto !important; }
+  .page-header .navbar-nav {
+    margin: 0;
+    float: none !important; }
+    .page-header .navbar-nav > li {
+      float: none; } }
+/* Stylesheet design for under max-width: 991px */
+@media (max-width: 991px) {
+  /* 991px */
+  body {
+    padding-top: 80px; }
+
+  .page-header {
+    background: #fff;
+    /* Navbar Brand */ }
+    .page-header .navbar-fixed-top {
+      background: #fff; }
+      .page-header .navbar-fixed-top .navbar-collapse {
+        max-height: 100%;
+        /* Navbar */ }
+        .page-header .navbar-fixed-top .navbar-collapse .navbar-nav li {
+          padding: 0;
+          float: none; }
+        .page-header .navbar-fixed-top .navbar-collapse .navbar-nav li > a {
+          font-weight: 700;
+          color: #3f5263; }
+        .page-header .navbar-fixed-top .navbar-collapse .navbar-nav li.active > a,
+        .page-header .navbar-fixed-top .navbar-collapse .navbar-nav li > a:hover {
+          color: #bf5757; }
+    .page-header img.logo-default {
+      display: none; } }
+/* Stylesheet design for above 992px */
+@media (min-width: 992px) {
+  /* 992px */
+  .page-header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 9999;
+    position: fixed;
+    /* Navbar Brand */
+    /* Navbar Nav */ }
+    .page-header .navbar-brand img.logo-scroll {
+      display: none; }
+    .page-header .navbar-nav {
+      float: right; }
+      .page-header .navbar-nav li > a {
+        padding: 5px 12px; } }
+/* Stylesheet design on Scroll (Fixed Header) 992px */
+@media (min-width: 992px) {
+  /* 992px */
+  .page-on-scroll .page-header {
+    /* Navbar Brand */
+    /* Navbar Nav */ }
+    .page-on-scroll .page-header .navbar-brand {
+      height: 70px;
+      max-height: 70px;
+      line-height: 49px;
+      transition-duration: 400ms;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+      .page-on-scroll .page-header .navbar-brand img.logo-scroll {
+        display: block; }
+      .page-on-scroll .page-header .navbar-brand img.logo-default {
+        display: none; }
+    .page-on-scroll .page-header .navbar-nav li {
+      padding: 19px 1px;
+      transition-duration: 400ms;
+      transition-property: all;
+      transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1); }
+    .page-on-scroll .page-header .navbar-nav li > a {
+      color: #3f5263; }
+    .page-on-scroll .page-header .navbar-nav li.active > a,
+    .page-on-scroll .page-header .navbar-nav li > a:hover {
+      border: 1px solid #e5e5e5; } }
